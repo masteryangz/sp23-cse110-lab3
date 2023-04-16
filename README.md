@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-[link](https://github.com/masteryangz/Lab2_Starter)
+[link](https://masteryangz.github.io/Lab2_Starter/)
