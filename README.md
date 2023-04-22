@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-[link](https://masteryangz.github.io/Lab2_Starter/)
+# Lab 3 - Starter
+[link](https://masteryangz.github.io/sp23-cse110-lab3/)
