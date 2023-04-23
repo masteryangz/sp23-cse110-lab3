@@ -74,6 +74,7 @@ button {
 }
 
 summary {
+    font-family: 'Roboto', sans-serif;
     display:block;
 }
 
