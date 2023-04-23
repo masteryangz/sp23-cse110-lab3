@@ -1,0 +1,84 @@
+h1 {
+    position: static;
+    text-decoration: overline;
+    text-align: center;
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:100px;
+    margin-right:100px;
+    color:black;                                  /* apply colors to all h1 */
+    font-size: 2pc;                                 /* apply font size to all h1 */
+    display: flex;
+    flex-grow: 5px;
+    grid:50px 50px;
+    grid-auto-flow: column;
+}
+
+h2 {
+    position:fixed;
+    margin:50px 50px 50px 50px;
+    font-size:10pt;                                 /* apply font size to all h2 */
+    color:green;                                  /* apply colors to all h2 */
+    border-style:double;
+    border-color:blueviolet;
+    border-width:10;
+    border-radius:5px;
+    display:flex;
+    flex-shrink: 5px;
+    grid:50px 50px;
+    grid-area: auto;
+}
+
+h3 {
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    margin:auto;
+    font-size:30px;
+    color:#0f0;                                   /* apply colors to all h2 */
+    display: flex;
+    flex-direction: column;
+    grid: 50px 50px;
+    grid-template: auto;
+}
+
+p {
+    padding:5px 5px 5px 5px;
+    background-color:aquamarine;                  /* apply background-colors to all li */
+    background-color: hsl(100, 0, 100);           /* apply background-colors to all p */
+    color:rgb(255, 255, 0);                       /* apply colors to all p */
+}
+
+li:hover {
+    color:blueviolet;                             /* apply colors to all li */
+    font-size:1em;                                  /* apply font size to all li */
+}
+
+li:active {
+    color:#0f0;
+    font-size:1em;
+}
+
+legend {
+    font-size:3ex;                                  /* apply font size to all legend */
+    display: inline;
+}
+
+button {
+    font-size:1rem;                                 /* apply font size to all legend */
+    height:10px;
+    width: 10px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+summary {
+    display:block;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
