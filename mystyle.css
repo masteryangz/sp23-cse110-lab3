@@ -39,12 +39,18 @@ p {
 li {
     color:blueviolet;                             /* apply colors to all li */
     font-size:1em;                                  /* apply font size to all li */
+    
 }
 
 legend {
     font-size:3ex;                                  /* apply font size to all legend */
+    display: inline;
 }
 
 button {
     font-size:1rem;                                 /* apply font size to all legend */
+}
+
+summary {
+    display:block;
 }
