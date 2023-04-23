@@ -60,9 +60,41 @@ li:active {
     font-size:1em;
 }
 
-legend {
+legend, .special {
     font-size:3ex;                                  /* apply font size to all legend */
     display: inline;
+}
+
+*{
+    margin:auto;
+}
+
+h1 h2 {
+    border: 1px;
+}
+
+h1 > h2 {
+    border:2px;
+}
+
+h2 ~ h3 {
+    border:1px;
+}
+
+a.class{
+    color:bisque;
+}
+
+h3 + h4 {
+    border:1px;
+}
+
+#id {
+    color:#0f0;
+}
+
+a[title=a] {
+    font: 100px;
 }
 
 button {
