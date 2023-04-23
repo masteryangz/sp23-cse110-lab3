@@ -8,6 +8,8 @@ h1 {
     margin-right:100px;
     color:black;                                  /* apply colors to all h1 */
     font-size: 2pc;                                 /* apply font size to all h1 */
+    display: flex;
+    flex-grow: 5px;
 }
 
 h2 {
@@ -19,6 +21,8 @@ h2 {
     border-color:blueviolet;
     border-width:10;
     border-radius:5px;
+    display:flex;
+    flex-shrink: 5px;
 }
 
 h3 {
@@ -29,6 +33,8 @@ h3 {
     margin:auto;
     font-size:30px;
     color:#0f0;                                   /* apply colors to all h2 */
+    display: flex;
+    flex-direction: column;
 }
 
 p {
