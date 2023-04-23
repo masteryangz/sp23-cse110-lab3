@@ -1,0 +1,56 @@
+h1 {
+    text-decoration: overline;
+    text-align: center;
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:100px;
+    margin-right:100px;
+    color:black;                                  /* apply colors to all h1 */
+    font-size: 2pc;                                 /* apply font size to all h1 */
+}
+
+h2 {
+    margin:50px 50px 50px 50px;
+    font-size:10pt;                                 /* apply font size to all h2 */
+    color:green;                                  /* apply colors to all h2 */
+    border-style:double;
+    border-color:blueviolet;
+    border-width:10;
+    border-radius:5px;
+}
+
+h3 {
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    margin:auto;
+    font-size:30px;
+    color:#0f0;                                   /* apply colors to all h2 */
+}
+
+p {
+    padding:5px 5px 5px 5px;
+    background-color:aquamarine;                  /* apply background-colors to all li */
+    background-color: hsl(100, 0, 100);           /* apply background-colors to all p */
+    color:rgb(255, 255, 0);                       /* apply colors to all p */
+}
+
+li {
+    color:blueviolet;                             /* apply colors to all li */
+    font-size:1em;                                  /* apply font size to all li */
+    
+}
+
+legend {
+    font-size:3ex;                                  /* apply font size to all legend */
+    display: inline;
+}
+
+button {
+    font-size:1rem;                                 /* apply font size to all legend */
+}
+
+summary {
+    display:block;
+}
