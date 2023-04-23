@@ -1,4 +1,5 @@
 h1 {
+    position: static;
     text-decoration: overline;
     text-align: center;
     margin-top:100px;
@@ -10,6 +11,7 @@ h1 {
 }
 
 h2 {
+    position:fixed;
     margin:50px 50px 50px 50px;
     font-size:10pt;                                 /* apply font size to all h2 */
     color:green;                                  /* apply colors to all h2 */
