@@ -14,12 +14,17 @@ h2 {
 }
 
 h3 {
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
     margin:auto;
     font-size:30px;
     color:#0f0;                                   /* apply colors to all h2 */
 }
 
 p {
+    padding:5px 5px 5px 5px;
     background-color:aquamarine;                  /* apply background-colors to all li */
     background-color: hsl(100, 0, 100);           /* apply background-colors to all p */
     color:rgb(255, 255, 0);                       /* apply colors to all p */
