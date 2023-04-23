@@ -1,14 +1,20 @@
 h1 {
+    margin-top:100px;
+    margin-left:100px;
+    margin-bottom:100px;
+    margin-right:100px;
     color:black;                                  /* apply colors to all h1 */
     font-size: 2pc;                                 /* apply font size to all h1 */
 }
 
 h2 {
+    margin:50px 50px 50px 50px;
     font-size:20pt;                                 /* apply font size to all h2 */
     color:green;                                  /* apply colors to all h2 */
 }
 
 h3 {
+    margin:auto;
     font-size:30px;
     color:#0f0;                                   /* apply colors to all h2 */
 }
