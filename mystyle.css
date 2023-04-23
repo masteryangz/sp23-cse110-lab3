@@ -1,16 +1,33 @@
 h1 {
-    color:black;                /* apply colors to all h1 */
+    color:black;                                  /* apply colors to all h1 */
+    font-size: 2pc;                                 /* apply font size to all h1 */
 }
 
 h2 {
-    color:rgb(255, 255, 0);     /* apply colors to all h2 */
+    font-size:20pt;                                 /* apply font size to all h2 */
+    color:green;                                  /* apply colors to all h2 */
 }
 
 h3 {
-    color:#0f0;                 /* apply colors to all h2 */
+    font-size:30px;
+    color:#0f0;                                   /* apply colors to all h2 */
 }
 
 p {
-    background-color: black;    /* apply background-colors to all p */
-    color:hsl(0, 0, 100);       /* apply colors to all p */
+    background-color:aquamarine;                  /* apply background-colors to all li */
+    background-color: hsl(100, 0, 100);           /* apply background-colors to all p */
+    color:rgb(255, 255, 0);                       /* apply colors to all p */
+}
+
+li {
+    color:blueviolet;                             /* apply colors to all li */
+    font-size:1em;                                  /* apply font size to all li */
+}
+
+legend {
+    font-size:3ex;                                  /* apply font size to all legend */
+}
+
+button {
+    font-size:1rem;                                 /* apply font size to all legend */
 }
