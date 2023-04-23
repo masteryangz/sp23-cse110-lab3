@@ -9,8 +9,12 @@ h1 {
 
 h2 {
     margin:50px 50px 50px 50px;
-    font-size:20pt;                                 /* apply font size to all h2 */
+    font-size:10pt;                                 /* apply font size to all h2 */
     color:green;                                  /* apply colors to all h2 */
+    border-style:double;
+    border-color:blueviolet;
+    border-width:10;
+    border-radius:5px;
 }
 
 h3 {
